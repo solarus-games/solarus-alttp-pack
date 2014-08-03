@@ -201,7 +201,7 @@ tile_pattern{
 
 tile_pattern{
   id = 29,
-  ground = "water_bottom_left",
+  ground = "wall_bottom_left_water",
   default_layer = 0,
   x = { 0, 16, 32 },
   y = { 232, 232, 232 },
@@ -1011,7 +1011,7 @@ tile_pattern{
 
 tile_pattern{
   id = 281,
-  ground = "wall_top_left_water",
+  ground = "wall_top_left",
   default_layer = 0,
   x = 144,
   y = 152,
