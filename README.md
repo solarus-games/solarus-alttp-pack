@@ -8,8 +8,19 @@ for the
 You can use these resources if you want to develop a game with the
 Solarus engine using Zelda ALTTP graphics.
 
-There are always missing or incomplete elements, so
-feel free to contribute!
+One goal of this resource pack is also to provide at least all
+[data files required by Solarus](https://github.com/christopho/solarus/blob/master/work/data_files.txt).
+
+Since Zelda: A Link to the Past is huge,
+there will always be missing or incomplete elements.
+Feel free to contribute!
+
+Also, there may be unwanted elements,
+typically, resources that don't come from Zelda ALTTP
+but that were created for Zelda Mystery of Solarus DX
+and ended up here.
+If you find such inconsistencies, please report them by
+opening an issue.
 
 ## Branches
 
