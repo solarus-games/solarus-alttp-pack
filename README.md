@@ -3,7 +3,7 @@
 This repository provides musics, sounds, tilesets and sprites
 from Legend of Zelda: A Link to the Past
 for the
-[https://github.com/christopho/solarus](Solarus engine).
+[Solarus engine](https://github.com/christopho/solarus).
 
 You can use these resources if you want to develop a game with the
 Solarus engine using Zelda ALTTP graphics.
@@ -22,7 +22,7 @@ live in their own branches.
 
 Using the ALTTP resource pack in a new quest is straightforward.
 
-- Create a new quest with [http://www.solarus-games.org/development/quest-editor](Solarus Quest Editor).
+- Create a new quest with [Solarus Quest Editor](http://www.solarus-games.org/development/quest-editor]).
 - Close the quest editor.
 - Copy the content of this repository's `data` directory into the `data`
   directory of your quest, overwriting the existing `project_db.dat` file.
