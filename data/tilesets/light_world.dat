@@ -2860,9 +2860,9 @@ tile_pattern{
   id = "dirt.tree.roots.2",
   ground = "traversable",
   default_layer = 0,
-  x = 192,
+  x = 184,
   y = 272,
-  width = 32,
+  width = 48,
   height = 8,
 }
 
@@ -5083,9 +5083,9 @@ tile_pattern{
   id = "grass.tree.roots.2",
   ground = "traversable",
   default_layer = 0,
-  x = 192,
+  x = 184,
   y = 112,
-  width = 32,
+  width = 48,
   height = 8,
 }
 
@@ -5123,9 +5123,9 @@ tile_pattern{
   id = "grass.tree.roots_forest.2",
   ground = "traversable",
   default_layer = 0,
-  x = 200,
+  x = 184,
   y = 192,
-  width = 16,
+  width = 48,
   height = 8,
 }
 
