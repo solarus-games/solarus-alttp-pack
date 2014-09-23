@@ -6072,7 +6072,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 360,
   y = 8,
   width = 16,
@@ -6082,7 +6082,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves.1",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 360,
   y = 0,
   width = 16,
@@ -6092,7 +6092,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves.2",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 360,
   y = 24,
   width = 16,
@@ -6102,7 +6102,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves.3",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 352,
   y = 8,
   width = 8,
@@ -6112,7 +6112,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves.4",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 376,
   y = 8,
   width = 8,
@@ -6122,7 +6122,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves.corner.1",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 352,
   y = 0,
   width = 8,
@@ -6132,7 +6132,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves.corner.2",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 376,
   y = 0,
   width = 8,
@@ -6142,7 +6142,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves.corner.3",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 352,
   y = 24,
   width = 8,
@@ -6152,7 +6152,7 @@ tile_pattern{
 tile_pattern{
   id = "house.roof_leaves.corner.4",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 376,
   y = 24,
   width = 8,
