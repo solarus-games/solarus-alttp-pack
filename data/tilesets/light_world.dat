@@ -4621,7 +4621,7 @@ tile_pattern{
 
 tile_pattern{
   id = "grass.cliff.top.diag.1",
-  ground = "low_wall",
+  ground = "wall_bottom_right",
   default_layer = 0,
   x = 104,
   y = 184,
@@ -4641,7 +4641,7 @@ tile_pattern{
 
 tile_pattern{
   id = "grass.cliff.top.diag.2",
-  ground = "low_wall",
+  ground = "wall_bottom_left",
   default_layer = 0,
   x = 88,
   y = 184,
@@ -4661,7 +4661,7 @@ tile_pattern{
 
 tile_pattern{
   id = "grass.cliff.top.diag.3",
-  ground = "low_wall",
+  ground = "wall_top_right",
   default_layer = 0,
   x = 104,
   y = 168,
@@ -4681,7 +4681,7 @@ tile_pattern{
 
 tile_pattern{
   id = "grass.cliff.top.diag.4",
-  ground = "low_wall",
+  ground = "wall_top_left",
   default_layer = 0,
   x = 88,
   y = 168,
