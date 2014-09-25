@@ -1,4 +1,11 @@
+tileset{ id = "cave", description = "Cave" }
+tileset{ id = "dungeon_blue", description = "Dungeon (blue)" }
+tileset{ id = "dungeon_grayblue", description = "Dungeon (gray-blue)" }
+tileset{ id = "dungeon_graybrown", description = "Dungeon (gray-brown)" }
+tileset{ id = "house", description = "House" }
+tileset{ id = "ice_brightblue", description = "Ice (bright blue)" }
 tileset{ id = "light_world", description = "Light World" }
+tileset{ id = "temple_green", description = "Temple (green)" }
 
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/chest", description = "Chest" }
