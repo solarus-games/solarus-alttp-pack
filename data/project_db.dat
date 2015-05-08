@@ -210,3 +210,7 @@ sound{ id = "zora", description = "zora" }
 
 language{ id = "en", description = "English" }
 
+font{ id = "8_bit", description = "8_bit" }
+font{ id = "alttp", description = "alttp" }
+font{ id = "minecraftia", description = "minecraftia" }
+
