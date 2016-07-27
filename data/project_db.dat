@@ -217,7 +217,6 @@ sound{ id = "zora", description = "zora" }
 
 
 
-language{ id = "en", description = "English" }
 
 font{ id = "alttp", description = "alttp" }
 
