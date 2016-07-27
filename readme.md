@@ -31,12 +31,17 @@ live in their own branches.
 
 ## Create a new quest with ALTTP resources
 
-Using the ALTTP resource pack in a new quest is straightforward.
+Using the ALTTP resource pack for a new quest is straightforward.
+The idea is to create your quest as a copy of the ALTTP resource pack
+rather than creating it from the quest editor:
 
-- Create a new quest with [Solarus Quest Editor](http://www.solarus-games.org/development/quest-editor]).
-- Close the quest editor.
-- Copy the content of this repository's `data` directory into the `data`
-  directory of your quest, overwriting the existing `project_db.dat` file.
+- Create a new empty folder for your quest.
+- Copy the `data` folder of the ALTTP resource pack and all its content
+  into your quest's folder.
+- You can now open your new quest with
+  [Solarus Quest Editor](http://www.solarus-games.org/development/quest-editor]).
+- Edit the quest properties (Ctrl+P) to set a title, a write directory
+  and other information of your game.
 
 ## Integrate ALTTP resources into an existing quest
 
@@ -49,8 +54,13 @@ Here is how to proceed:
 - Make a backup of your quest.
 - Copy the content of this repository's `data` directory into the `data`
   directory of your quest, except `project_db.dat`.
-- `project_db.dat` is the list of resources of your quest.
-  Append the text of `project_db.dat` of this repository into your own
-  `project_db.dat`. Make sure there are no duplicated ids.
-
+  (`project_db.dat` is the list of your quest and you don't want to lose the
+  existing ones.)
+  If you don't want the whole pack but only a few sprites, tilesets or sounds,
+  you can also only pick the resources you need.
+- Open your quest with
+  [Solarus Quest Editor](http://www.solarus-games.org/development/quest-editor]).
+- In the quest tree, all resources you just copied now appear with an
+  interrogation mark icon.
+  You can right-click them to add them to the quest.
 
