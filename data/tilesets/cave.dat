@@ -191,32 +191,35 @@ tile_pattern{
 
 tile_pattern{
   id = "barrier.1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 1,
   x = 56,
   y = 40,
   width = 8,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
   id = "barrier.2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 1,
   x = 64,
   y = 40,
   width = 8,
   height = 8,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
   id = "barrier.border",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 1,
   x = 48,
   y = 40,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -267,6 +270,7 @@ tile_pattern{
   y = 0,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -277,6 +281,7 @@ tile_pattern{
   y = 16,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -287,6 +292,7 @@ tile_pattern{
   y = 0,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -297,6 +303,7 @@ tile_pattern{
   y = 16,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -317,6 +324,7 @@ tile_pattern{
   y = 288,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -327,6 +335,7 @@ tile_pattern{
   y = 312,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -337,6 +346,7 @@ tile_pattern{
   y = 296,
   width = 8,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -347,6 +357,7 @@ tile_pattern{
   y = 296,
   width = 8,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -357,6 +368,7 @@ tile_pattern{
   y = 296,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -377,6 +389,7 @@ tile_pattern{
   y = 160,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -387,6 +400,7 @@ tile_pattern{
   y = 128,
   width = 8,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -397,6 +411,7 @@ tile_pattern{
   y = 128,
   width = 8,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -407,6 +422,7 @@ tile_pattern{
   y = 176,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -417,6 +433,7 @@ tile_pattern{
   y = 144,
   width = 8,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -427,6 +444,7 @@ tile_pattern{
   y = 144,
   width = 8,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -437,6 +455,7 @@ tile_pattern{
   y = 176,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -447,6 +466,7 @@ tile_pattern{
   y = 144,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -457,6 +477,7 @@ tile_pattern{
   y = 152,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -467,6 +488,7 @@ tile_pattern{
   y = 160,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -477,6 +499,7 @@ tile_pattern{
   y = 128,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -487,6 +510,7 @@ tile_pattern{
   y = 136,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -637,6 +661,7 @@ tile_pattern{
   y = 208,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -647,6 +672,7 @@ tile_pattern{
   y = 216,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -657,6 +683,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -667,6 +694,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -677,6 +705,7 @@ tile_pattern{
   y = 208,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -687,6 +716,7 @@ tile_pattern{
   y = 216,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -697,6 +727,7 @@ tile_pattern{
   y = 208,
   width = 8,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -707,6 +738,7 @@ tile_pattern{
   y = 208,
   width = 8,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -797,6 +829,7 @@ tile_pattern{
   y = 192,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -807,6 +840,7 @@ tile_pattern{
   y = 208,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -817,6 +851,7 @@ tile_pattern{
   y = 192,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -827,6 +862,7 @@ tile_pattern{
   y = 208,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -837,6 +873,7 @@ tile_pattern{
   y = 192,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -847,6 +884,7 @@ tile_pattern{
   y = 208,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -857,6 +895,7 @@ tile_pattern{
   y = 192,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -867,6 +906,7 @@ tile_pattern{
   y = 208,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -877,6 +917,7 @@ tile_pattern{
   y = 144,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -887,6 +928,7 @@ tile_pattern{
   y = 152,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -897,6 +939,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -907,6 +950,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -917,6 +961,7 @@ tile_pattern{
   y = 192,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -927,6 +972,7 @@ tile_pattern{
   y = 200,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -937,6 +983,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -947,6 +994,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -957,6 +1005,7 @@ tile_pattern{
   y = 176,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -967,6 +1016,7 @@ tile_pattern{
   y = 184,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -977,6 +1027,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -987,6 +1038,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -997,6 +1049,7 @@ tile_pattern{
   y = 160,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1007,6 +1060,7 @@ tile_pattern{
   y = 168,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1017,6 +1071,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1027,6 +1082,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1037,6 +1093,7 @@ tile_pattern{
   y = 128,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1047,6 +1104,7 @@ tile_pattern{
   y = 136,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1057,6 +1115,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1067,6 +1126,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1077,6 +1137,7 @@ tile_pattern{
   y = 128,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1087,6 +1148,7 @@ tile_pattern{
   y = 136,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1097,6 +1159,7 @@ tile_pattern{
   y = 128,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1107,6 +1170,7 @@ tile_pattern{
   y = 136,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1115,86 +1179,6 @@ tile_pattern{
   default_layer = 1,
   x = 208,
   y = 96,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor.2",
-  ground = "traversable",
-  default_layer = 1,
-  x = 208,
-  y = 112,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor.3",
-  ground = "traversable",
-  default_layer = 1,
-  x = 208,
-  y = 128,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor.4",
-  ground = "traversable",
-  default_layer = 1,
-  x = 208,
-  y = 144,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor.5",
-  ground = "traversable",
-  default_layer = 1,
-  x = 208,
-  y = 160,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor.6",
-  ground = "traversable",
-  default_layer = 1,
-  x = 208,
-  y = 176,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor.7",
-  ground = "traversable",
-  default_layer = 1,
-  x = 208,
-  y = 192,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor.8",
-  ground = "traversable",
-  default_layer = 1,
-  x = 208,
-  y = 208,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor.9",
-  ground = "traversable",
-  default_layer = 1,
-  x = 208,
-  y = 224,
   width = 16,
   height = 16,
 }
@@ -1300,6 +1284,16 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "floor.2",
+  ground = "traversable",
+  default_layer = 1,
+  x = 208,
+  y = 112,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
   id = "floor.20",
   ground = "traversable",
   default_layer = 1,
@@ -1344,6 +1338,76 @@ tile_pattern{
   ground = "traversable",
   default_layer = 1,
   x = 192,
+  y = 224,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor.3",
+  ground = "traversable",
+  default_layer = 1,
+  x = 208,
+  y = 128,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor.4",
+  ground = "traversable",
+  default_layer = 1,
+  x = 208,
+  y = 144,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor.5",
+  ground = "traversable",
+  default_layer = 1,
+  x = 208,
+  y = 160,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor.6",
+  ground = "traversable",
+  default_layer = 1,
+  x = 208,
+  y = 176,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor.7",
+  ground = "traversable",
+  default_layer = 1,
+  x = 208,
+  y = 192,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor.8",
+  ground = "traversable",
+  default_layer = 1,
+  x = 208,
+  y = 208,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor.9",
+  ground = "traversable",
+  default_layer = 1,
+  x = 208,
   y = 224,
   width = 16,
   height = 16,
@@ -1470,86 +1534,6 @@ tile_pattern{
 }
 
 tile_pattern{
-  id = "floor_low.2",
-  ground = "traversable",
-  default_layer = 0,
-  x = 224,
-  y = 112,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor_low.3",
-  ground = "traversable",
-  default_layer = 0,
-  x = 224,
-  y = 128,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor_low.4",
-  ground = "traversable",
-  default_layer = 0,
-  x = 224,
-  y = 144,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor_low.5",
-  ground = "traversable",
-  default_layer = 0,
-  x = 224,
-  y = 160,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor_low.6",
-  ground = "traversable",
-  default_layer = 0,
-  x = 224,
-  y = 176,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor_low.7",
-  ground = "traversable",
-  default_layer = 0,
-  x = 224,
-  y = 192,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor_low.8",
-  ground = "traversable",
-  default_layer = 0,
-  x = 224,
-  y = 208,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
-  id = "floor_low.9",
-  ground = "traversable",
-  default_layer = 0,
-  x = 224,
-  y = 224,
-  width = 16,
-  height = 16,
-}
-
-tile_pattern{
   id = "floor_low.10",
   ground = "traversable",
   default_layer = 0,
@@ -1634,6 +1618,86 @@ tile_pattern{
   ground = "traversable",
   default_layer = 0,
   x = 256,
+  y = 224,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor_low.2",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
+  y = 112,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor_low.3",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
+  y = 128,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor_low.4",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
+  y = 144,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor_low.5",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
+  y = 160,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor_low.6",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
+  y = 176,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor_low.7",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
+  y = 192,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor_low.8",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
+  y = 208,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "floor_low.9",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
   y = 224,
   width = 16,
   height = 16,
@@ -1827,6 +1891,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -1837,6 +1902,7 @@ tile_pattern{
   y = 104,
   width = 8,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -1847,6 +1913,7 @@ tile_pattern{
   y = 104,
   width = 8,
   height = 8,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -1857,6 +1924,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 8,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -1867,6 +1935,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1877,6 +1946,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1887,6 +1957,7 @@ tile_pattern{
   y = 104,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1897,6 +1968,7 @@ tile_pattern{
   y = 104,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1907,6 +1979,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1917,6 +1990,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1927,6 +2001,7 @@ tile_pattern{
   y = 104,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -1937,6 +2012,7 @@ tile_pattern{
   y = 104,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2264,6 +2340,7 @@ tile_pattern{
   y = 160,
   width = 16,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2274,6 +2351,7 @@ tile_pattern{
   y = 184,
   width = 32,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2284,6 +2362,7 @@ tile_pattern{
   y = 160,
   width = 8,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2294,6 +2373,7 @@ tile_pattern{
   y = 160,
   width = 8,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2304,6 +2384,7 @@ tile_pattern{
   y = 136,
   width = 16,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2314,6 +2395,7 @@ tile_pattern{
   y = 136,
   width = 8,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2324,6 +2406,7 @@ tile_pattern{
   y = 136,
   width = 8,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2334,6 +2417,7 @@ tile_pattern{
   y = 128,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2344,6 +2428,7 @@ tile_pattern{
   y = 128,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2354,6 +2439,7 @@ tile_pattern{
   y = 128,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2364,6 +2450,7 @@ tile_pattern{
   y = 160,
   width = 16,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2374,6 +2461,7 @@ tile_pattern{
   y = 160,
   width = 8,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2384,6 +2472,7 @@ tile_pattern{
   y = 160,
   width = 8,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2394,6 +2483,7 @@ tile_pattern{
   y = 184,
   width = 16,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2404,6 +2494,7 @@ tile_pattern{
   y = 184,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2414,6 +2505,7 @@ tile_pattern{
   y = 184,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2424,6 +2516,7 @@ tile_pattern{
   y = 168,
   width = 24,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2434,6 +2527,7 @@ tile_pattern{
   y = 160,
   width = 24,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2444,6 +2538,7 @@ tile_pattern{
   y = 184,
   width = 24,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2454,6 +2549,7 @@ tile_pattern{
   y = 168,
   width = 8,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2464,6 +2560,7 @@ tile_pattern{
   y = 160,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2474,6 +2571,7 @@ tile_pattern{
   y = 184,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2484,6 +2582,7 @@ tile_pattern{
   y = 136,
   width = 24,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2494,6 +2593,7 @@ tile_pattern{
   y = 128,
   width = 24,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2504,6 +2604,7 @@ tile_pattern{
   y = 152,
   width = 24,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2514,6 +2615,7 @@ tile_pattern{
   y = 136,
   width = 8,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2524,6 +2626,7 @@ tile_pattern{
   y = 128,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2534,6 +2637,7 @@ tile_pattern{
   y = 152,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2544,6 +2648,7 @@ tile_pattern{
   y = 256,
   width = 32,
   height = 32,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2564,6 +2669,7 @@ tile_pattern{
   y = 240,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2574,6 +2680,7 @@ tile_pattern{
   y = { 240, 240, 240, 240 },
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2584,6 +2691,7 @@ tile_pattern{
   y = 240,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2594,6 +2702,7 @@ tile_pattern{
   y = { 256, 256, 256, 256 },
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2604,6 +2713,7 @@ tile_pattern{
   y = 240,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2614,6 +2724,7 @@ tile_pattern{
   y = 0,
   width = 16,
   height = 24,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -2624,6 +2735,7 @@ tile_pattern{
   y = 16,
   width = 16,
   height = 24,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -2634,6 +2746,7 @@ tile_pattern{
   y = 24,
   width = 24,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -2644,6 +2757,7 @@ tile_pattern{
   y = 0,
   width = 24,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -2654,6 +2768,7 @@ tile_pattern{
   y = 0,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2664,6 +2779,7 @@ tile_pattern{
   y = 0,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2674,6 +2790,7 @@ tile_pattern{
   y = 24,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2684,6 +2801,7 @@ tile_pattern{
   y = 24,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2694,6 +2812,7 @@ tile_pattern{
   y = 0,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2704,6 +2823,7 @@ tile_pattern{
   y = 0,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2714,6 +2834,7 @@ tile_pattern{
   y = 24,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2724,6 +2845,7 @@ tile_pattern{
   y = 24,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2734,6 +2856,7 @@ tile_pattern{
   y = 96,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -2744,6 +2867,7 @@ tile_pattern{
   y = 104,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -2754,6 +2878,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -2764,6 +2889,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -2774,6 +2900,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2784,6 +2911,7 @@ tile_pattern{
   y = 96,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2794,6 +2922,7 @@ tile_pattern{
   y = 104,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2804,6 +2933,7 @@ tile_pattern{
   y = 104,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2854,6 +2984,7 @@ tile_pattern{
   y = 0,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2864,6 +2995,7 @@ tile_pattern{
   y = 0,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2874,6 +3006,7 @@ tile_pattern{
   y = 16,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2884,6 +3017,7 @@ tile_pattern{
   y = 16,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2894,6 +3028,7 @@ tile_pattern{
   y = 0,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2904,6 +3039,7 @@ tile_pattern{
   y = 0,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2914,6 +3050,7 @@ tile_pattern{
   y = 16,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2924,6 +3061,7 @@ tile_pattern{
   y = 16,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2934,6 +3072,7 @@ tile_pattern{
   y = 96,
   width = 16,
   height = 16,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -2944,6 +3083,7 @@ tile_pattern{
   y = 112,
   width = 16,
   height = 16,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -2954,6 +3094,7 @@ tile_pattern{
   y = 112,
   width = 16,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -2964,6 +3105,7 @@ tile_pattern{
   y = 96,
   width = 16,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -2974,6 +3116,7 @@ tile_pattern{
   y = 96,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2984,6 +3127,7 @@ tile_pattern{
   y = 96,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -2994,6 +3138,7 @@ tile_pattern{
   y = 112,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3004,6 +3149,7 @@ tile_pattern{
   y = 112,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3014,6 +3160,7 @@ tile_pattern{
   y = 96,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3024,6 +3171,7 @@ tile_pattern{
   y = 96,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3034,6 +3182,7 @@ tile_pattern{
   y = 112,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3044,6 +3193,7 @@ tile_pattern{
   y = 112,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3054,6 +3204,7 @@ tile_pattern{
   y = 48,
   width = 16,
   height = 24,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -3064,6 +3215,7 @@ tile_pattern{
   y = 64,
   width = 16,
   height = 24,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -3074,6 +3226,7 @@ tile_pattern{
   y = 72,
   width = 24,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -3084,6 +3237,7 @@ tile_pattern{
   y = 48,
   width = 24,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -3094,6 +3248,7 @@ tile_pattern{
   y = 48,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3104,6 +3259,7 @@ tile_pattern{
   y = 48,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3114,6 +3270,7 @@ tile_pattern{
   y = 72,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3124,6 +3281,7 @@ tile_pattern{
   y = 72,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3134,6 +3292,7 @@ tile_pattern{
   y = 48,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3144,6 +3303,7 @@ tile_pattern{
   y = 48,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3154,6 +3314,7 @@ tile_pattern{
   y = 72,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3164,6 +3325,7 @@ tile_pattern{
   y = 72,
   width = 24,
   height = 24,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3174,6 +3336,7 @@ tile_pattern{
   y = 112,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -3184,6 +3347,7 @@ tile_pattern{
   y = 120,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -3194,6 +3358,7 @@ tile_pattern{
   y = 112,
   width = 8,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -3204,6 +3369,7 @@ tile_pattern{
   y = 112,
   width = 8,
   height = 16,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -3214,6 +3380,7 @@ tile_pattern{
   y = 112,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3224,6 +3391,7 @@ tile_pattern{
   y = 112,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3234,6 +3402,7 @@ tile_pattern{
   y = 120,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3244,6 +3413,7 @@ tile_pattern{
   y = 120,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3294,6 +3464,7 @@ tile_pattern{
   y = 32,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3304,6 +3475,7 @@ tile_pattern{
   y = 32,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3314,6 +3486,7 @@ tile_pattern{
   y = 48,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3324,6 +3497,7 @@ tile_pattern{
   y = 48,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3334,6 +3508,7 @@ tile_pattern{
   y = 32,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3344,6 +3519,7 @@ tile_pattern{
   y = 32,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3354,6 +3530,7 @@ tile_pattern{
   y = 48,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3364,6 +3541,7 @@ tile_pattern{
   y = 48,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3374,6 +3552,7 @@ tile_pattern{
   y = 32,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3384,6 +3563,7 @@ tile_pattern{
   y = 32,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3394,6 +3574,7 @@ tile_pattern{
   y = 48,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3404,6 +3585,7 @@ tile_pattern{
   y = 48,
   width = 16,
   height = 16,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -3868,7 +4050,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = { 0, 16, 32 },
   y = { 352, 352, 352 },
@@ -3878,7 +4060,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.1",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 16,
   y = 336,
@@ -3888,7 +4070,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.2",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 24,
   y = 344,
@@ -3898,7 +4080,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.3",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 16,
   y = 344,
@@ -3908,7 +4090,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.4",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 24,
   y = 336,
@@ -3918,7 +4100,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.corner.1",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 0,
   y = 336,
@@ -3928,7 +4110,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.corner.2",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 8,
   y = 336,
@@ -3938,7 +4120,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.corner.3",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 0,
   y = 344,
@@ -3948,7 +4130,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.corner.4",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 8,
   y = 344,
@@ -3958,7 +4140,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.corner_reverse.1",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 32,
   y = 336,
@@ -3968,7 +4150,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.corner_reverse.2",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 40,
   y = 336,
@@ -3978,7 +4160,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.corner_reverse.3",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 32,
   y = 344,
@@ -3988,7 +4170,7 @@ tile_pattern{
 
 tile_pattern{
   id = "water_shallow.corner_reverse.4",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 1,
   x = 40,
   y = 344,
