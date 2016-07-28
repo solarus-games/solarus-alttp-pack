@@ -1,3 +1,6 @@
+map{ id = "first_map", description = "First map" }
+map{ id = "inside_store", description = "Inside Store" }
+map{ id = "outside_store", description = "Outside Store" }
 
 tileset{ id = "cave", description = "Cave" }
 tileset{ id = "dungeon_blue", description = "Dungeon (blue)" }
@@ -5,8 +8,12 @@ tileset{ id = "dungeon_grayblue", description = "Dungeon (gray-blue)" }
 tileset{ id = "dungeon_graybrown", description = "Dungeon (gray-brown)" }
 tileset{ id = "house", description = "House" }
 tileset{ id = "ice_brightblue", description = "Ice (bright blue)" }
+tileset{ id = "ice_brown", description = "Ice (brown)" }
 tileset{ id = "light_world", description = "Light World" }
+tileset{ id = "palace_purple", description = "Palace (purple)" }
+tileset{ id = "temple_blue", description = "Temple (blue)" }
 tileset{ id = "temple_green", description = "Temple (green)" }
+tileset{ id = "temple_yellow", description = "Temple (yellow)" }
 
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/tentacle", description = "Enemy: Tentacle" }
@@ -65,6 +72,7 @@ sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
 sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
 sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
+sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "npc/ganon", description = "Ganon" }
 sprite{ id = "npc/great_fairy", description = "Great Fairy" }
 sprite{ id = "npc/monkey", description = "Monkey" }
