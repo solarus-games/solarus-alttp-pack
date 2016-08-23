@@ -4,7 +4,7 @@
 --
 -- Just require() this script and then all Solarus types
 -- will have a register() method that adds an event callback.
--- 
+--
 -- Example:
 --
 -- local multi_events = require("scripts/multi_events")
