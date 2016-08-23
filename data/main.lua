@@ -17,7 +17,7 @@ function sol.main:on_started()
 
   -- Start the game when the Solarus logo menu is finished.
   solarus_logo.on_finished = function()
-    game_manager:start_game()
+    game_manager:start_game("save1.dat")
   end
 
 end
