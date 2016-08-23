@@ -1,6 +1,6 @@
 # Zelda ALTTP resource pack for Solarus
 
-This repository provides musics, sounds, tilesets and sprites
+This repository provides musics, sounds, tilesets, sprites and scripts
 from Legend of Zelda: A Link to the Past
 for the
 [Solarus engine](https://github.com/christopho/solarus).
