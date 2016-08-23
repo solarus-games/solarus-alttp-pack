@@ -1,7 +1,7 @@
 -- Script that creates an ALTTP-looking dialog box for games.
 --
 -- Usage:
--- require("scripts/alttp_dialog_box")
+-- require("scripts/menus/alttp_dialog_box")
 --
 -- You really have nothing more to do:
 -- the dialog box will automatically be used in games.
