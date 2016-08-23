@@ -1,5 +1,7 @@
 local game_manager = {}
 
+require("scripts/alttp_dialog_box")
+
 -- Sets initial values to a new savegame file.
 local function initialize_new_savegame(game)
 
