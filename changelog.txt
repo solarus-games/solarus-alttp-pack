@@ -1,0 +1,22 @@
+______________________________________
+
+Solarus ALTTP pack 1.5.1 (in progress)
+______________________________________
+
+* Add a changelog.
+* Add scripts to start the game.
+* Add a Zelda ALTTP dialog box.
+* Fix green bush sprite.
+* Improve tilesets.
+
+_____________________________________
+
+Solarus ALTTP pack 1.5.0 (2016-07-27)
+_____________________________________
+
+* Upgrade the resource pack to Solarus 1.5.
+* Add a quest.dat file to make this a valid quest.
+* Remove empty English dialogs and string files.
+* Fix character misalignment in font file.
+* Add the % symbol in the ALTTP font.
+
