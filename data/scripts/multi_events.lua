@@ -3,7 +3,7 @@
 -- Usage:
 --
 -- Just require() this script and then all Solarus types
--- will have a register() method that adds an event callback.
+-- will have a register_event() method that adds an event callback.
 --
 -- Example:
 --
@@ -42,7 +42,7 @@ local function register_event(object, event_name, callback)
   end
 end
 
--- Adds the multi event register() feature to an object
+-- Adds the multi event register_event() feature to an object
 -- (userdata, userdata metatable or table).
 function multi_events:enable(object)
   object.register_event = register_event
@@ -98,7 +98,7 @@ local types = {
   "custom_entity"
 }
 
--- Add the register function to all userdata types.
+-- Add the register_event function to all userdata types.
 for _, type in ipairs(types) do
 
   local meta = sol.main.get_metatable(type)
