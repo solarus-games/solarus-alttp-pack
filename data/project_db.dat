@@ -73,29 +73,56 @@ sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
 sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
-sprite{ id = "npc/ganon", description = "Ganon" }
+sprite{ id = "npc/angry_brother", description = "Angry brother" }
+sprite{ id = "npc/average_middle_aged_man", description = "Average middle-aged man" }
+sprite{ id = "npc/bird_green", description = "Green bird" }
+sprite{ id = "npc/blacksmith", description = "Blacksmith" }
+sprite{ id = "npc/blind_hideout_man", description = "Man in Blind hideout" }
+sprite{ id = "npc/broom_grandma", description = "Broom grandma" }
+sprite{ id = "npc/bully", description = "Bully" }
+sprite{ id = "npc/bully_cursed", description = "Cursed Bully" }
+sprite{ id = "npc/camper", description = "Camper" }
+sprite{ id = "npc/drunk_man", description = "Drunk man" }
+sprite{ id = "npc/fat_fairy", description = "Fat fairy" }
+sprite{ id = "npc/flute_boy", description = "Flute boy" }
+sprite{ id = "npc/frog", description = "Frog" }
+sprite{ id = "npc/ghostly_proprietor", description = "Ghostly Proprietor" }
+sprite{ id = "npc/grandson", description = "Grandson" }
 sprite{ id = "npc/great_fairy", description = "Great Fairy" }
+sprite{ id = "npc/lady_blue", description = "Blue lady" }
+sprite{ id = "npc/lady_red", description = "Red lady" }
+sprite{ id = "npc/little_elephant", description = "Little elephant" }
+sprite{ id = "npc/little_tree", description = "Little tree" }
+sprite{ id = "npc/lost_old_man", description = "Lost old man" }
+sprite{ id = "npc/mad_batter_purple", description = "Purple mad batter" }
+sprite{ id = "npc/mad_batter_white", description = "White mad batter" }
+sprite{ id = "npc/merchant_blue", description = "Blue merchant" }
+sprite{ id = "npc/merchant_green", description = "Green merchant" }
+sprite{ id = "npc/merchant_yellow", description = "Yellow merchant" }
+sprite{ id = "npc/mini_game_man_blue", description = "Blue mini-game man" }
+sprite{ id = "npc/mini_game_man_yellow", description = "Yellow mini-game man" }
 sprite{ id = "npc/monkey", description = "Monkey" }
-sprite{ id = "npc/sahasrahla", description = "Sahasrahla" }
-sprite{ id = "npc/static_villager1", description = "ALTTP static villager 1" }
-sprite{ id = "npc/static_villager10", description = "ALTTP static villager 10" }
-sprite{ id = "npc/static_villager11", description = "ALTTP static villager 11" }
-sprite{ id = "npc/static_villager12", description = "ALTTP static villager 12" }
-sprite{ id = "npc/static_villager13", description = "ALTTP static villager 13" }
-sprite{ id = "npc/static_villager14", description = "ALTTP static villager 14" }
-sprite{ id = "npc/static_villager2", description = "ALTTP static villager 2" }
-sprite{ id = "npc/static_villager3", description = "ALTTP static villager 3" }
-sprite{ id = "npc/static_villager4", description = "ALTTP static villager 4" }
-sprite{ id = "npc/static_villager5", description = "ALTTP static villager 5" }
-sprite{ id = "npc/static_villager6", description = "ALTTP static villager 6" }
-sprite{ id = "npc/static_villager7", description = "ALTTP static villager 7" }
-sprite{ id = "npc/static_villager8", description = "ALTTP static villager 8" }
-sprite{ id = "npc/static_villager9", description = "ALTTP static villager 9" }
-sprite{ id = "npc/thief", description = "Thief" }
-sprite{ id = "npc/villager1", description = "ALTTP villager 1" }
-sprite{ id = "npc/villager2", description = "ALTTP villager 2" }
-sprite{ id = "npc/villager3", description = "ALTTP villager 3" }
+sprite{ id = "npc/mouse_purple", description = "Purple mouse" }
+sprite{ id = "npc/mustache_man", description = "Mustache man" }
+sprite{ id = "npc/octopus", description = "Octopus" }
+sprite{ id = "npc/old_man", description = "Old man" }
+sprite{ id = "npc/pink_ball", description = "Pink ball" }
+sprite{ id = "npc/pit", description = "Pit" }
+sprite{ id = "npc/priest", description = "Priest" }
+sprite{ id = "npc/running_man", description = "Running man" }
+sprite{ id = "npc/soldier_blue", description = "Blue soldier" }
+sprite{ id = "npc/thief_green", description = "Green thief" }
+sprite{ id = "npc/thief_red", description = "Red thief" }
+sprite{ id = "npc/thief_yellow", description = "Yellow thief" }
+sprite{ id = "npc/uncle", description = "Uncle" }
+sprite{ id = "npc/wise_old_man_green", description = "Green wise old man" }
+sprite{ id = "npc/wise_old_man_yellow", description = "Yellow wise old man" }
+sprite{ id = "npc/witch", description = "Witch" }
 sprite{ id = "npc/wizard", description = "Wizard" }
+sprite{ id = "npc/woman_blue", description = "Blue woman" }
+sprite{ id = "npc/woman_green", description = "Green woman" }
+sprite{ id = "npc/woman_yellow", description = "Yellow woman" }
+sprite{ id = "npc/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/zelda", description = "Zelda" }
 
 music{ id = "agahnim", description = "Agahnim theme" }

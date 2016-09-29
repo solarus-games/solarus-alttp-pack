@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "npc/great_fairy.png",
+  src_image = "npc/fat_fairy.png",
   frame_delay = 500,
   frame_to_loop_on = 0,
   directions = {

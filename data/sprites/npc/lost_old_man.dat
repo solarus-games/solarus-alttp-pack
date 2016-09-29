@@ -8,7 +8,6 @@ animation{
     { x = 48, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
   },
 }
-
 animation{
   name = "walking",
   src_image = "npc/alttp.png",
@@ -21,4 +20,3 @@ animation{
     { x = 48, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
   },
 }
-

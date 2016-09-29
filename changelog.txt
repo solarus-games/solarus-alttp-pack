@@ -1,7 +1,14 @@
-______________________________________
+_____________________________________
 
-Solarus ALTTP pack 1.5.1 (in progress)
-______________________________________
+Solarus ALTTP pack 1.5.2 (2016-09-29)
+_____________________________________
+
+* Add lots of NPC sprites and reorganize existing ones.
+
+_____________________________________
+
+Solarus ALTTP pack 1.5.1 (2016-08-28)
+_____________________________________
 
 * Add a changelog.
 * Add scripts to start the game.

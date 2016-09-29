@@ -24,8 +24,12 @@ opening an issue.
 
 ## Branches
 
-In the branch master of this repository, resources are always compatible with
-the latest release of Solarus.
+Branch master always points to the latest release of this resource pack.
+
+The latest resource pack release is always compatible
+with the latest Solarus version.
+
+
 Resources compatible with older versions or development versions of Solarus
 live in their own branches.
 
