@@ -107,7 +107,6 @@ sprite{ id = "npc/mustache_man", description = "Mustache man" }
 sprite{ id = "npc/octopus", description = "Octopus" }
 sprite{ id = "npc/old_man", description = "Old man" }
 sprite{ id = "npc/pink_ball", description = "Pink ball" }
-sprite{ id = "npc/pit", description = "Pit" }
 sprite{ id = "npc/priest", description = "Priest" }
 sprite{ id = "npc/running_man", description = "Running man" }
 sprite{ id = "npc/soldier_blue", description = "Blue soldier" }
