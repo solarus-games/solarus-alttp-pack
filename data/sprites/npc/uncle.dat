@@ -1,0 +1,12 @@
+animation{
+  name = "stopped",
+  src_image = "npc/alttp.png",
+  frame_delay = 500,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 144, y = 128, frame_width = 48, frame_height = 32, origin_x = 24, origin_y = 21 },
+    { x = 144, y = 128, frame_width = 48, frame_height = 32, origin_x = 24, origin_y = 21 },
+    { x = 144, y = 128, frame_width = 48, frame_height = 32, origin_x = 24, origin_y = 21 },
+    { x = 144, y = 128, frame_width = 48, frame_height = 32, origin_x = 24, origin_y = 21 },
+  },
+}
