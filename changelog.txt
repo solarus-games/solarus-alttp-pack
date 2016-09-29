@@ -1,5 +1,13 @@
 _____________________________________
 
+Solarus ALTTP pack 1.5.3 (2016-09-29)
+_____________________________________
+
+* Remove unexistent sprite declaration added by mistake.
+* Remove a non-Zelda NPC sprite.
+
+_____________________________________
+
 Solarus ALTTP pack 1.5.2 (2016-09-29)
 _____________________________________
 
