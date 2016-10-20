@@ -1,4 +1,4 @@
--- This scripts allows to register multiple functions as Solarus events.
+-- This script allows to register multiple functions as Solarus events.
 --
 -- Usage:
 --
