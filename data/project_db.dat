@@ -15,8 +15,61 @@ tileset{ id = "temple_blue", description = "Temple (blue)" }
 tileset{ id = "temple_green", description = "Temple (green)" }
 tileset{ id = "temple_yellow", description = "Temple (yellow)" }
 
+sprite{ id = "enemies/anti_fairy", description = "Enemy: Anti-Fairy" }
+sprite{ id = "enemies/bari_blue", description = "Enemy: (Blue) Bari" }
+sprite{ id = "enemies/bari_red", description = "Enemy: (Red) Bari" }
+sprite{ id = "enemies/biri", description = "Enemy: Biri" }
+sprite{ id = "enemies/blade_trap", description = "Enemy: Blade Trap" }
+sprite{ id = "enemies/blazing_bat", description = "Enemy: Blazing Bat" }
+sprite{ id = "enemies/boulder", description = "Enemy: Boulder" }
+sprite{ id = "enemies/cucco", description = "Enemy: Cucco" }
+sprite{ id = "enemies/deadrock", description = "Enemy: Deadrock" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
-sprite{ id = "enemies/tentacle", description = "Enemy: Tentacle" }
+sprite{ id = "enemies/flying_tile", description = "Enemy: Flying Tile" }
+sprite{ id = "enemies/ganon", description = "Enemy: Ganon" }
+sprite{ id = "enemies/ganon_blazing_bat", description = "Enemy: Ganon (blazing bat)" }
+sprite{ id = "enemies/ganon_flame", description = "Enemy: Ganon (flame)" }
+sprite{ id = "enemies/geldman", description = "Enemy: Geldman" }
+sprite{ id = "enemies/gibdo", description = "Enemy: Gibdo" }
+sprite{ id = "enemies/hardhat_beetle_blue", description = "Enemy: (Blue) Hardhat Beetle" }
+sprite{ id = "enemies/hardhat_beetle_red", description = "Enemy: (Red) Hardhat Beetle" }
+sprite{ id = "enemies/helmasaur_blue", description = "Enemy: (Blue) Helmasaur" }
+sprite{ id = "enemies/helmasaur_green", description = "Enemy: (Green) Helmasaur" }
+sprite{ id = "enemies/hinox", description = "Enemy: Hinox" }
+sprite{ id = "enemies/keese", description = "Enemy: Keese" }
+sprite{ id = "enemies/lanmola_body", description = "Enemy: Lanmola (body)" }
+sprite{ id = "enemies/lanmola_head", description = "Enemy: Lanmola (head)" }
+sprite{ id = "enemies/lanmola_tail", description = "Enemy: Lanmola (tail)" }
+sprite{ id = "enemies/laser", description = "Enemy: Laser" }
+sprite{ id = "enemies/leever_green", description = "Enemy: Leever (green)" }
+sprite{ id = "enemies/leever_purple", description = "Enemy: Leever (purple)" }
+sprite{ id = "enemies/lynel", description = "Enemy: Lynel" }
+sprite{ id = "enemies/lynel_fire", description = "Enemy: Lynel (fire)" }
+sprite{ id = "enemies/moblin", description = "Enemy: Moblin" }
+sprite{ id = "enemies/octorok_red", description = "Enemy: (Red) Octorok" }
+sprite{ id = "enemies/octorok_rock", description = "Enemy: Octorok (rock)" }
+sprite{ id = "enemies/pengator", description = "Enemy: Pengator" }
+sprite{ id = "enemies/poe", description = "Enemy: Poe" }
+sprite{ id = "enemies/popo", description = "Enemy: Popo" }
+sprite{ id = "enemies/rat", description = "Enemy: Rat" }
+sprite{ id = "enemies/river_zora", description = "Enemy: River Zora" }
+sprite{ id = "enemies/ropa", description = "Enemy: Ropa" }
+sprite{ id = "enemies/rope", description = "Enemy: Rope" }
+sprite{ id = "enemies/sand_crab", description = "Enemy: Sand Crab" }
+sprite{ id = "enemies/snap_dragon", description = "Enemy: Snap Dragon" }
+sprite{ id = "enemies/soldier_ball_and_chain", description = "Enemy: (Black) Soldier (ball & chain)" }
+sprite{ id = "enemies/soldier_black", description = "Enemy: (Black) Soldier (unarmed)" }
+sprite{ id = "enemies/soldier_blue_sword", description = "Enemy: (Blue) Soldier (sword)" }
+sprite{ id = "enemies/soldier_green_sword", description = "Enemy: (Green) Soldier (sword)" }
+sprite{ id = "enemies/soldier_red_sword", description = "Enemy: (Red) Soldier (sword)" }
+sprite{ id = "enemies/soldier_regular", description = "Enemy: (Regular) Soldier" }
+sprite{ id = "enemies/stal", description = "Enemy: Stal" }
+sprite{ id = "enemies/stalfos_knight", description = "Enemy: Stalfos Knight" }
+sprite{ id = "enemies/stalfos_knight_head", description = "Enemy: Stalfos Knight (head)" }
+sprite{ id = "enemies/swamola", description = "Enemy: Swamola" }
+sprite{ id = "enemies/wizzrobe_bolt", description = "Enemy: Wizzrobe (bolt)" }
+sprite{ id = "enemies/wizzrobe_cursed", description = "Enemy: (Cursed) Wizzrobe" }
+sprite{ id = "enemies/wizzrobe_standard", description = "Enemy: (Standard) Wizzrobe" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
