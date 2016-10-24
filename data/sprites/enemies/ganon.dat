@@ -2,18 +2,18 @@ animation{
   name = "walking",
   src_image = "enemies/ganon.png",
   directions = {
-    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
-    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
-    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45 },
   },
 }
 animation{
   name = "crouching",
   src_image = "enemies/ganon.png",
   directions = {
-    { x = 0, y = 320, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 24 },
-    { x = 64, y = 320, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 32 },
+    { x = 0, y = 320, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+    { x = 64, y = 320, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
   },
 }
 animation{
@@ -22,20 +22,20 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
-    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 3 },
-    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 3 },
-    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 3 },
-    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 3 },
+    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45, num_frames = 3 },
+    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45, num_frames = 3 },
+    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45, num_frames = 3 },
+    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45, num_frames = 3 },
   },
 }
 animation{
   name = "immobilized",
   src_image = "enemies/ganon.png",
   directions = {
-    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
-    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
-    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
-    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45 },
   },
 }
 animation{
@@ -55,9 +55,9 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
-    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 2 },
-    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 2 },
-    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 2 },
-    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 2 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45, num_frames = 2 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45, num_frames = 2 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45, num_frames = 2 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 45, num_frames = 2 },
   },
 }
