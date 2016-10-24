@@ -20,7 +20,6 @@ sprite{ id = "enemies/bari_blue", description = "Enemy: (Blue) Bari" }
 sprite{ id = "enemies/bari_red", description = "Enemy: (Red) Bari" }
 sprite{ id = "enemies/biri", description = "Enemy: Biri" }
 sprite{ id = "enemies/blade_trap", description = "Enemy: Blade Trap" }
-sprite{ id = "enemies/blazing_bat", description = "Enemy: Blazing Bat" }
 sprite{ id = "enemies/boulder", description = "Enemy: Boulder" }
 sprite{ id = "enemies/cucco", description = "Enemy: Cucco" }
 sprite{ id = "enemies/deadrock", description = "Enemy: Deadrock" }

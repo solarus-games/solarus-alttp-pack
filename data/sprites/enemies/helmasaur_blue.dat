@@ -4,10 +4,10 @@ animation{
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
-    { x = 144, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 144, y = 120, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 144, y = 144, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 144, y = 168, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 144, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 144, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 144, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }
 animation{
@@ -26,10 +26,10 @@ animation{
   name = "immobilized",
   src_image = "enemies/helmasaur.png",
   directions = {
-    { x = 144, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 144, y = 120, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 144, y = 144, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 144, y = 168, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 144, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 144, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 144, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
   },
 }
 animation{
@@ -37,9 +37,9 @@ animation{
   src_image = "enemies/helmasaur.png",
   frame_delay = 100,
   directions = {
-    { x = 240, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 240, y = 120, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 240, y = 144, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 240, y = 168, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 240, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 240, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 240, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 240, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }
