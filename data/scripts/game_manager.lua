@@ -1,7 +1,6 @@
 local game_manager = {}
 
 local initial_game = require("scripts/initial_game")
-require("scripts/menus/alttp_dialog_box")
 
 -- Starts the game from the given savegame file,
 -- initializing it if necessary.
