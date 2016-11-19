@@ -71,6 +71,7 @@ sprite{ id = "hero/tunic1", description = "Hero tunic 1" }
 sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
 sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
 sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
+sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "npc/angry_brother", description = "Angry brother" }
@@ -252,4 +253,6 @@ sound{ id = "zora", description = "zora" }
 
 
 font{ id = "alttp", description = "alttp" }
+font{ id = "green_digits", description = "Green digits" }
+font{ id = "white_digits", description = "White digits" }
 

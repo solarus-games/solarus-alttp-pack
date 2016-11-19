@@ -17,7 +17,7 @@ local function initialize_hud_features(game)
 
   for _, element_config in ipairs(hud_config) do
     local element_builder = require(element_config.menu_script)
-    local element = element_builder:new(game)
+    local element = element_builder:new(game, element_config)
     element:set_dst_position(element_config.x, element_config.y)
     hud.elements[#hud.elements + 1] = element
   end

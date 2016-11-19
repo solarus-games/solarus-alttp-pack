@@ -1,5 +1,14 @@
 _____________________________________
 
+Solarus ALTTP pack 1.5.6 (2016-11-19)
+_____________________________________
+
+* Add a rupees counter and an item box to the HUD.
+* Add icons to be used for the HUD.
+* Add PNG fonts with digits.
+
+_____________________________________
+
 Solarus ALTTP pack 1.5.5 (2016-11-19)
 _____________________________________
 
