@@ -2,6 +2,7 @@
 -- You will probably make a title screen and then start a game.
 -- See the Lua API! http://www.solarus-games.org/doc/latest
 
+require("scripts/features")
 local game_manager = require("scripts/game_manager")
 
 -- This function is called when Solarus starts.
