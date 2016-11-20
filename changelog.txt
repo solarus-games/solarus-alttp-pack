@@ -6,6 +6,7 @@ _____________________________________
 * Add a rupees counter and an item box to the HUD.
 * Add icons to be used for the HUD.
 * Add PNG fonts with digits.
+* Make the HUD compatible with old HUD element scripts.
 
 _____________________________________
 
