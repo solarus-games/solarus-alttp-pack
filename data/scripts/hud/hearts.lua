@@ -1,28 +1,18 @@
--- Hearts displayer that can be be used in the game HUD
--- but also in the savegames selection screen.
+-- Hearts view used in game screen and in the savegames selection screen.
 
--- Usage:
--- local hearts_manager = require("scripts/hud/hearts")
--- local hearts_menu = hearts_manager:new(game)
--- hearts_menu:set_dst_position(x, y)
--- sol.menu.start(game, hearts_menu)
-
-local hearts_manager = {}
+local hearts_builder = {}
 
 local hearts_img = sol.surface.create("hud/hearts.png")
 
-function hearts_manager:new(game)
+function hearts_builder:new(game, config)
 
   local hearts = {}
 
-  function hearts:initialize()
-
-    hearts.surface = sol.surface.create(80, 16)
-    hearts.dst_x = 0
-    hearts.dst_y = 0
-    hearts.max_life_displayed = game:get_max_life()
-    hearts.current_life_displayed = game:get_life()
-  end
+  hearts.surface = sol.surface.create(80, 16)
+  hearts.dst_x = config.x
+  hearts.dst_y = config.y
+  hearts.max_life_displayed = game:get_max_life()
+  hearts.current_life_displayed = game:get_life()
 
   function hearts:repeat_danger_sound()
 
@@ -72,11 +62,6 @@ function hearts_manager:new(game)
       end
       hearts_img:draw_region(8, 0, 8, 8, hearts.surface, x, y)
     end
-  end
-
-  function hearts:set_dst_position(x, y)
-    hearts.dst_x = x
-    hearts.dst_y = y
   end
 
   function hearts:on_draw(dst_surface)
@@ -165,9 +150,7 @@ function hearts_manager:new(game)
     hearts:rebuild_surface()
   end
 
-  hearts:initialize()
-
   return hearts
 end
 
-return hearts_manager
+return hearts_builder

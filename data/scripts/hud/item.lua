@@ -8,16 +8,13 @@ function item_icon_builder:new(game, config)
 
   local item_icon = {}
 
-  local slot = (config ~= nil and config.slot) or 1
+  item_icon.slot = config.slot or 1
+  item_icon.surface = sol.surface.create(22, 22)
+  item_icon.item_sprite = sol.sprite.create("entities/items")
+  item_icon.item_displayed = nil
+  item_icon.item_variant_displayed = 0
 
-  function item_icon:initialize()
-
-    item_icon.slot = slot
-    item_icon.surface = sol.surface.create(22, 22)
-    item_icon.item_sprite = sol.sprite.create("entities/items")
-    item_icon.item_displayed = nil
-    item_icon.item_variant_displayed = 0
-  end
+  local dst_x, dst_y = config.x, config.y
 
   function item_icon:rebuild_surface()
 
@@ -33,14 +30,9 @@ function item_icon_builder:new(game, config)
     end
   end
 
-  function item_icon:set_dst_position(x, y)
-    item_icon.dst_x = x
-    item_icon.dst_y = y
-  end
-
   function item_icon:on_draw(dst_surface)
 
-    local x, y = item_icon.dst_x, item_icon.dst_y
+    local x, y = dst_x, dst_y
     local width, height = dst_surface:get_size()
     if x < 0 then
       x = width + x
@@ -84,8 +76,6 @@ function item_icon_builder:new(game, config)
 
     return true  -- Repeat the timer.
   end
-
-  item_icon:initialize()
 
   -- Periodically check.
   check()

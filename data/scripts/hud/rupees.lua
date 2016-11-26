@@ -4,7 +4,7 @@ local rupees_builder = {}
 
 local rupee_icon_img = sol.surface.create("hud/rupee_icon.png")
 
-function rupees_builder:new(game)
+function rupees_builder:new(game, config)
 
   local rupees = {}
 
@@ -15,14 +15,11 @@ function rupees_builder:new(game)
   })
   local money_displayed = game:get_money()
 
-  function rupees:set_dst_position(x, y)
-    rupees.dst_x = x
-    rupees.dst_y = y
-  end
+  local dst_x, dst_y = config.x, config.y
 
   function rupees:on_draw(dst_surface)
 
-    local x, y = rupees.dst_x, rupees.dst_y
+    local x, y = dst_x, dst_y
     local width, height = dst_surface:get_size()
     if x < 0 then
       x = width + x
