@@ -4,7 +4,7 @@ ______________________________________
 Solarus ALTTP pack 1.5.7 (in progress)
 ______________________________________
 
-* Fix very slight error in spin attack sprites of swords 3 and 4.
+* Fix very slight errors in spin attack sprites of swords.
 
 _____________________________________
 
