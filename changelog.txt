@@ -5,6 +5,7 @@ Solarus ALTTP pack 1.5.7 (in progress)
 ______________________________________
 
 * Fix very slight errors in spin attack sprites of swords.
+* Fix color in preparing boomerang animation of tunic sprites.
 
 _____________________________________
 
