@@ -1,7 +1,18 @@
 map{ id = "first_map", description = "First map" }
+map{ id = "full_hyrule/Eastern Palace", description = "full_hyrule/Eastern Palace" }
+map{ id = "full_hyrule/Entrance to Death Mountain", description = "full_hyrule/Entrance to Death Mountain" }
+map{ id = "full_hyrule/Entrance to Zoras River", description = "full_hyrule/Entrance to Zoras River" }
+map{ id = "full_hyrule/Fortune Teller", description = "full_hyrule/Fortune Teller" }
+map{ id = "full_hyrule/Hyrule Castle", description = "full_hyrule/Hyrule Castle" }
+map{ id = "full_hyrule/Kakariko Village", description = "full_hyrule/Kakariko Village" }
+map{ id = "full_hyrule/Links Yard", description = "full_hyrule/Links Yard" }
+map{ id = "full_hyrule/Lost Woods", description = "full_hyrule/Lost Woods" }
+map{ id = "full_hyrule/Lumberjacks House", description = "full_hyrule/Lumberjacks House" }
+map{ id = "full_hyrule/SW Entry to Lost Woods", description = "full_hyrule/SW Entry to Lost Woods" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
 
+tileset{ id = "Full Hyrule", description = "Full Hyrule" }
 tileset{ id = "cave", description = "Cave" }
 tileset{ id = "dungeon_blue", description = "Dungeon (blue)" }
 tileset{ id = "dungeon_grayblue", description = "Dungeon (gray-blue)" }
