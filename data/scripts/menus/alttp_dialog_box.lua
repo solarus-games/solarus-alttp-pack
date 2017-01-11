@@ -291,6 +291,7 @@ local function create_dialog_box(game)
   function dialog_box:show_next_dialog()
 
     local next_dialog_id = self.dialog.next
+    self.choices = {} -- Clear previous choices list.
 
     if next_dialog_id ~= nil then
       -- Show the next dialog.
