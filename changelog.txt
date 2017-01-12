@@ -5,6 +5,7 @@ Solarus ALTTP pack 1.5.7 (in progress)
 ______________________________________
 
 * Add GIMP scripts to convert between PAL and NTSC colors.
+* Fix asking questions in successive dialogs (#6).
 * Fix very slight errors in spin attack sprites of swords.
 * Fix color in preparing boomerang animation of tunic sprites.
 

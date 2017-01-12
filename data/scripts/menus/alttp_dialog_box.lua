@@ -29,8 +29,6 @@
 --   This also works when the dialog box is inactive: in this case it
 --   returns the bounding box it would have if it was activated now.
 
-local dialog_box_manager = {}
-
 require("scripts/multi_events")
 
 -- Creates and sets up a dialog box for the specified game.
@@ -110,23 +108,28 @@ local function create_dialog_box(game)
     end
   end
 
+  -- Returns the dialog box.
+  function game:get_dialog_box()
+    return dialog_box
+  end
+
   -- Called by the engine when a dialog starts.
-  function game:on_dialog_started(dialog, info)
+  game:register_event("on_dialog_started", function(game, dialog, info)
 
     dialog_box.dialog = dialog
     dialog_box.info = info
     sol.menu.start(game, dialog_box)
-  end
+  end)
 
   -- Called by the engine when a dialog finishes.
-  function game:on_dialog_finished(dialog)
+  game:register_event("on_dialog_finished", function(game, dialog)
 
     if sol.menu.is_started(dialog_box) then
       sol.menu.stop(dialog_box)
     end
     dialog_box.dialog = nil
     dialog_box.info = nil
-  end
+  end)
 
   -- Determines the position of the dialog box on the screen.
   local function compute_position()
@@ -154,11 +157,6 @@ local function create_dialog_box(game)
     else
       dialog_box.box_dst_position = { x = x, y = y }
     end
-  end
-
-  -- Returns the dialog box.
-  function game:get_dialog_box()
-    return dialog_box
   end
 
   -- See the doc in the header comment.
@@ -291,7 +289,7 @@ local function create_dialog_box(game)
   function dialog_box:show_next_dialog()
 
     local next_dialog_id = self.dialog.next
-    self.choices = {} -- Clear previous choices list.
+    self.choices = {}  -- Clear previous choices list.
 
     if next_dialog_id ~= nil then
       -- Show the next dialog.
@@ -583,5 +581,5 @@ end
 local game_meta = sol.main.get_metatable("game")
 game_meta:register_event("on_started", create_dialog_box)
 
-return dialog_box_manager
+return true
 
