@@ -3,13 +3,13 @@
 This repository provides musics, sounds, tilesets, sprites and scripts
 from Legend of Zelda: A Link to the Past
 for the
-[Solarus engine](https://github.com/christopho/solarus).
+[Solarus engine](https://github.com/solarus-games/solarus).
 
 You can use these resources if you want to develop a game with the
 Solarus engine using Zelda ALTTP graphics.
 
 One goal of this resource pack is also to provide at least all
-[data files required by Solarus](https://github.com/christopho/solarus/blob/master/work/data_files.txt).
+[data files required by Solarus](https://github.com/solarus-games/solarus/blob/master/work/data_files.txt).
 
 Since Zelda: A Link to the Past is huge,
 there will always be missing or incomplete elements.
