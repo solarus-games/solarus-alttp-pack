@@ -57,9 +57,10 @@ Here is how to proceed:
 
 - Make a backup of your quest.
 - Copy the content of this repository's `data` directory into the `data`
-  directory of your quest, except `project_db.dat`.
+  directory of your quest, except `project_db.dat` and `quest.dat`.
   (`project_db.dat` is the list of resources of your quest and you don't want
-  to lose the existing ones.)
+  to lose the existing ones. `quest.dat` are the properties of your quest like
+  the title and the savegames directory.)
   If you don't want the whole pack but only a few sprites, tilesets or sounds,
   you can also only pick the resources you need.
 - Open your quest with
