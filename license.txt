@@ -1,0 +1,41 @@
+We give in this file the license information of
+the Zelda A Link to the Past Resource pack for Solarus.
+
+- Lua scripts are licensed under the terms of the GNU General Public License
+in version 3.
+
+- Most graphics, sounds and names include content that belong to Nintendo.
+We don't own this content. We provide it under fair use.
+
+- Data files we created are licensed under
+Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
+http://creativecommons.org/licenses/by-sa/4.0/
+
+Scripts under GNU GPL v3:                           Author
+-------------------------                           ------
+**.lua                                              Christopho
+
+Data files under CC BY-SA 4.0:                      Author
+------------------------------                      ------
+sounds/diarandor/solarus_logo.ogg                   Diarandor
+sprites/hud/gameover_fade.png                       Metallizer
+sprites/menus/solarus_logo.png                      Olivier Cléro
+
+Files that include content from Nintendo:
+-----------------------------------------
+fonts/alttp.png
+fonts/green_digits.png
+fonts/white_digits.png
+
+musics/*.it
+
+sounds/*.ogg
+
+sprites/enemies/*.png
+sprites/entities/*.png
+sprites/hero/*.png
+sprites/hud/piece_of_heart.png
+sprites/menus/hero_head.png
+sprites/npc/*.png
+
+tilesets/**.png
