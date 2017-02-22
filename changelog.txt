@@ -4,6 +4,7 @@ ______________________________________
 Solarus ALTTP pack 1.5.7 (in progress)
 ______________________________________
 
+* Add a sound with the Solarus logo.
 * Add GIMP scripts to convert between PAL and NTSC colors.
 * Fix asking questions in successive dialogs (#6).
 * Fix very slight errors in spin attack sprites of swords.

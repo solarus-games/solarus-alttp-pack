@@ -171,6 +171,7 @@ sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }
+sound{ id = "diarandor/solarus_logo", description = "Solarus logo" }
 sound{ id = "door_closed", description = "door_closed" }
 sound{ id = "door_open", description = "door_open" }
 sound{ id = "door_unlocked", description = "door_unlocked" }
