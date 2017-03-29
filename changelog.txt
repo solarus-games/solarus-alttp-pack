@@ -6,6 +6,7 @@ ______________________________________
 
 * Add a sound with the Solarus logo.
 * Add GIMP scripts to convert between PAL and NTSC colors.
+* Fix camper NPC sprite.
 * Fix asking questions in successive dialogs (#6).
 * Fix very slight errors in spin attack sprites of swords.
 * Fix color in preparing boomerang animation of tunic sprites.
