@@ -34,6 +34,11 @@ require("scripts/multi_events")
 -- Creates and sets up a dialog box for the specified game.
 local function create_dialog_box(game)
 
+  if game.get_dialog_box ~= nil then
+    -- Already done.
+    return
+  end
+
   local dialog_box = {
 
     -- Dialog box properties.
