@@ -10,6 +10,7 @@ ______________________________________
 * Fix asking questions in successive dialogs (#6).
 * Fix very slight errors in spin attack sprites of swords.
 * Fix color in preparing boomerang animation of tunic sprites.
+* Fix slight errors in shield sprites.
 
 _____________________________________
 
