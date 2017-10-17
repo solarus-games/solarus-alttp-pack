@@ -5,6 +5,7 @@ Solarus ALTTP pack 1.5.7 (in progress)
 ______________________________________
 
 * Add a sound with the Solarus logo.
+* Add Spanish special characters to the font.
 * Add GIMP scripts to convert between PAL and NTSC colors.
 * Fix camper NPC sprite.
 * Fix asking questions in successive dialogs (#6).
