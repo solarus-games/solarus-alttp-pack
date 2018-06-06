@@ -1,4 +1,3 @@
-map{ id = "first_map", description = "First map" }
 map{ id = "examples/light_world/eastern_palace", description = "Eastern Palace" }
 map{ id = "examples/light_world/entrance_to_death_mountain", description = "Entrance to Death Mountain" }
 map{ id = "examples/light_world/entrance_to_zoras_river", description = "Entrance to Zoras River" }
@@ -9,9 +8,26 @@ map{ id = "examples/light_world/links_yard", description = "Links Yard" }
 map{ id = "examples/light_world/lost_woods", description = "Lost Woods" }
 map{ id = "examples/light_world/lumberjacks_house", description = "Lumberjacks House" }
 map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry to Lost Woods" }
+map{ id = "first_map", description = "First map" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
 
+tileset{ id = "dungeon/blue", description = "Blue dungeon" }
+tileset{ id = "dungeon/brown", description = "Brown dungeon" }
+tileset{ id = "dungeon/dark_brown", description = "Dark brown dungeon" }
+tileset{ id = "dungeon/dark_yellow", description = "Dark yellow dungeon" }
+tileset{ id = "dungeon/gray", description = "Gray dungeon" }
+tileset{ id = "dungeon/gray_blue", description = "Gray-blue dungeon" }
+tileset{ id = "dungeon/gray_brown", description = "Gray-brown dungeon" }
+tileset{ id = "dungeon/gray_pink", description = "Gray-pink dungeon" }
+tileset{ id = "dungeon/gray_yellow", description = "Gray-yellow dungeon" }
+tileset{ id = "dungeon/green", description = "Green dungeon" }
+tileset{ id = "dungeon/light_blue", description = "Light blue dungeon" }
+tileset{ id = "dungeon/light_brown", description = "Light brown dungeon" }
+tileset{ id = "dungeon/light_green", description = "Light green dungeon" }
+tileset{ id = "dungeon/pink", description = "Pink dungeon" }
+tileset{ id = "dungeon/purple", description = "Purple dungeon" }
+tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "legacy/cave", description = "Cave" }
 tileset{ id = "legacy/dungeon_blue", description = "Dungeon (blue)" }
 tileset{ id = "legacy/dungeon_grayblue", description = "Dungeon (gray-blue)" }
@@ -24,7 +40,7 @@ tileset{ id = "legacy/palace_purple", description = "Palace (purple)" }
 tileset{ id = "legacy/temple_blue", description = "Temple (blue)" }
 tileset{ id = "legacy/temple_green", description = "Temple (green)" }
 tileset{ id = "legacy/temple_yellow", description = "Temple (yellow)" }
-tileset{ id = "outside", description = "Full Hyrule Outside" }
+tileset{ id = "out/outside", description = "Full Hyrule Outside" }
 
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/tentacle", description = "Enemy: Tentacle" }

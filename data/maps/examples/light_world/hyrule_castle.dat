@@ -5,7 +5,7 @@ properties{
   height = 1024,
   min_layer = -2,
   max_layer = 2,
-  tileset = "outside",
+  tileset = "out/outside",
 }
 
 teletransporter{
