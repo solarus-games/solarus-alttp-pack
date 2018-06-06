@@ -1,14 +1,14 @@
 map{ id = "first_map", description = "First map" }
-map{ id = "full_hyrule/eastern_palace", description = "Eastern Palace" }
-map{ id = "full_hyrule/entrance_to_death_mountain", description = "Entrance to Death Mountain" }
-map{ id = "full_hyrule/entrance_to_zoras_river", description = "Entrance to Zoras River" }
-map{ id = "full_hyrule/fortune_teller", description = "Fortune Teller" }
-map{ id = "full_hyrule/hyrule_castle", description = "Hyrule Castle" }
-map{ id = "full_hyrule/kakariko_village", description = "Kakariko Village" }
-map{ id = "full_hyrule/links_yard", description = "Links Yard" }
-map{ id = "full_hyrule/lost_woods", description = "Lost Woods" }
-map{ id = "full_hyrule/lumberjacks_house", description = "Lumberjacks House" }
-map{ id = "full_hyrule/sw_entry_to_lost_woods", description = "SW Entry to Lost Woods" }
+map{ id = "examples/light_world/eastern_palace", description = "Eastern Palace" }
+map{ id = "examples/light_world/entrance_to_death_mountain", description = "Entrance to Death Mountain" }
+map{ id = "examples/light_world/entrance_to_zoras_river", description = "Entrance to Zoras River" }
+map{ id = "examples/light_world/fortune_teller", description = "Fortune Teller" }
+map{ id = "examples/light_world/hyrule_castle", description = "Hyrule Castle" }
+map{ id = "examples/light_world/kakariko_village", description = "Kakariko Village" }
+map{ id = "examples/light_world/links_yard", description = "Links Yard" }
+map{ id = "examples/light_world/lost_woods", description = "Lost Woods" }
+map{ id = "examples/light_world/lumberjacks_house", description = "Lumberjacks House" }
+map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry to Lost Woods" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
 
