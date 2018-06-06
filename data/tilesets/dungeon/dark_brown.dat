@@ -1,4 +1,4 @@
-background_color{ 39, 119, 116 }
+background_color{ 0, 36, 140 }
 tile_pattern{
   id = "1",
   ground = "empty",
@@ -50998,7 +50998,80 @@ tile_pattern{
 }
 
 border_set{
-  id = "type-1",
+  id = "alter_floor",
+  pattern_0 = "alter_floor.4",
+  pattern_1 = "alter_floor.1",
+  pattern_2 = "alter_floor.3",
+  pattern_3 = "alter_floor.2",
+  pattern_4 = "alter_floor_corner.2",
+  pattern_5 = "alter_floor_corner.1",
+  pattern_6 = "alter_floor_corner.3",
+  pattern_7 = "alter_floor_corner.4",
+}
+
+border_set{
+  id = "carpet",
+  pattern_0 = "carpet.6",
+  pattern_1 = "carpet.2",
+  pattern_2 = "carpet.4",
+  pattern_3 = "carpet.8",
+  pattern_4 = "carpet.3",
+  pattern_5 = "carpet.1",
+  pattern_6 = "carpet.7",
+  pattern_7 = "carpet.9",
+}
+
+border_set{
+  id = "floor_to_hole",
+  pattern_0 = "hole.3",
+  pattern_1 = "hole.2",
+  pattern_2 = "hole.4",
+  pattern_3 = "hole.1",
+  pattern_4 = "hole.corner_reverse.3",
+  pattern_5 = "hole.corner_reverse.4",
+  pattern_6 = "hole.corner_reverse.2",
+  pattern_7 = "hole.corner_reverse.1",
+  pattern_8 = "hole.corner.3",
+  pattern_9 = "hole.corner.4",
+  pattern_10 = "hole.corner.2",
+  pattern_11 = "hole.corner.1",
+}
+
+border_set{
+  id = "hole",
+  inner = true,
+  pattern_0 = "hole.4",
+  pattern_1 = "hole.1",
+  pattern_2 = "hole.3",
+  pattern_3 = "hole.2",
+  pattern_4 = "hole.corner.2",
+  pattern_5 = "hole.corner.1",
+  pattern_6 = "hole.corner.3",
+  pattern_7 = "hole.corner.4",
+  pattern_8 = "hole.corner_reverse.2",
+  pattern_9 = "hole.corner_reverse.1",
+  pattern_10 = "hole.corner_reverse.3",
+  pattern_11 = "hole.corner_reverse.4",
+}
+
+border_set{
+  id = "shallow_water",
+  pattern_0 = "water_shallow.4",
+  pattern_1 = "water_shallow.1",
+  pattern_2 = "water_shallow.3",
+  pattern_3 = "water_shallow.2",
+  pattern_4 = "water_shallow.corner.2",
+  pattern_5 = "water_shallow.corner.1",
+  pattern_6 = "water_shallow.corner.3",
+  pattern_7 = "water_shallow.corner.4",
+  pattern_8 = "water_shallow.corner_reverse.2",
+  pattern_9 = "water_shallow.corner_reverse.1",
+  pattern_10 = "water_shallow.corner_reverse.3",
+  pattern_11 = "water_shallow.corner_reverse.4",
+}
+
+border_set{
+  id = "wall-1",
   pattern_0 = "wall.4-1",
   pattern_1 = "wall.1-1",
   pattern_2 = "wall.3-1",
@@ -51007,9 +51080,257 @@ border_set{
   pattern_5 = "wall.corner.1-1",
   pattern_6 = "wall.corner.3-1",
   pattern_7 = "wall.corner.4-1",
-  pattern_8 = "wall.corner_reverse.2-1",
-  pattern_9 = "wall.corner_reverse.1-1",
-  pattern_10 = "wall.corner_reverse.3-1",
-  pattern_11 = "wall.corner_reverse.4-1",
+  pattern_8 = "wall.corner_reverse.2-1b",
+  pattern_9 = "wall.corner_reverse.1-1b",
+  pattern_10 = "wall.corner_reverse.3-1b",
+  pattern_11 = "wall.corner_reverse.4-1b",
+}
+
+border_set{
+  id = "wall-2",
+  pattern_0 = "wall.4-2",
+  pattern_1 = "wall.1-2",
+  pattern_2 = "wall.3-2",
+  pattern_3 = "wall.2-2",
+  pattern_4 = "wall.corner.2-2",
+  pattern_5 = "wall.corner.1-2",
+  pattern_6 = "wall.corner.3-2",
+  pattern_7 = "wall.corner.4-2",
+  pattern_8 = "wall.corner_reverse.2-2b",
+  pattern_9 = "wall.corner_reverse.1-2b",
+  pattern_10 = "wall.corner_reverse.3-2b",
+  pattern_11 = "wall.corner_reverse.4-2b",
+}
+
+border_set{
+  id = "wall-3",
+  pattern_0 = "wall.4-3",
+  pattern_1 = "wall.1-3",
+  pattern_2 = "wall.3-3",
+  pattern_3 = "wall.2-3",
+  pattern_4 = "wall.corner.2-3",
+  pattern_5 = "wall.corner.1-3",
+  pattern_6 = "wall.corner.3-3",
+  pattern_7 = "wall.corner.4-3",
+  pattern_8 = "wall.corner_reverse.2-3b",
+  pattern_9 = "wall.corner_reverse.1-3b",
+  pattern_10 = "wall.corner_reverse.3-3b",
+  pattern_11 = "wall.corner_reverse.4-3b",
+}
+
+border_set{
+  id = "wall-4",
+  pattern_0 = "wall.4-4",
+  pattern_1 = "wall.1-4",
+  pattern_2 = "wall.3-4",
+  pattern_3 = "wall.2-4",
+  pattern_4 = "wall.corner.2-4",
+  pattern_5 = "wall.corner.1-4",
+  pattern_6 = "wall.corner.3-4",
+  pattern_7 = "wall.corner.4-4",
+  pattern_8 = "wall.corner_reverse.2-4b",
+  pattern_9 = "wall.corner_reverse.1-4b",
+  pattern_10 = "wall.corner_reverse.3-4b",
+  pattern_11 = "wall.corner_reverse.4-4b",
+}
+
+border_set{
+  id = "wall-5",
+  pattern_0 = "wall.4-5",
+  pattern_1 = "wall.1-5",
+  pattern_2 = "wall.3-5",
+  pattern_3 = "wall.2-5",
+  pattern_4 = "wall.corner.2-5",
+  pattern_5 = "wall.corner.1-5",
+  pattern_6 = "wall.corner.3-5",
+  pattern_7 = "wall.corner.4-5",
+  pattern_8 = "wall.corner_reverse.2-5b",
+  pattern_9 = "wall.corner_reverse.1-5b",
+  pattern_10 = "wall.corner_reverse.3-5b",
+  pattern_11 = "wall.corner_reverse.4-5b",
+}
+
+border_set{
+  id = "wall-6",
+  pattern_0 = "wall.4-6",
+  pattern_1 = "wall.1-6",
+  pattern_2 = "wall.3-6",
+  pattern_3 = "wall.2-6",
+  pattern_4 = "wall.corner.2-6",
+  pattern_5 = "wall.corner.1-6",
+  pattern_6 = "wall.corner.3-6",
+  pattern_7 = "wall.corner.4-6",
+  pattern_8 = "wall.corner_reverse.2-6b",
+  pattern_9 = "wall.corner_reverse.1-6b",
+  pattern_10 = "wall.corner_reverse.3-6b",
+  pattern_11 = "wall.corner_reverse.4-6b",
+}
+
+border_set{
+  id = "wall-7",
+  pattern_0 = "wall.4-7",
+  pattern_1 = "wall.1-7",
+  pattern_2 = "wall.3-7",
+  pattern_3 = "wall.2-7",
+  pattern_4 = "wall.corner.2-7",
+  pattern_5 = "wall.corner.1-7",
+  pattern_6 = "wall.corner.3-7",
+  pattern_7 = "wall.corner.4-7",
+  pattern_8 = "wall.corner_reverse.2-7b",
+  pattern_9 = "wall.corner_reverse.1-7b",
+  pattern_10 = "wall.corner_reverse.3-7b",
+  pattern_11 = "wall.corner_reverse.4-7b",
+}
+
+border_set{
+  id = "wall_border-1",
+  inner = true,
+  pattern_0 = "wall_border.4-1",
+  pattern_1 = "wall_border.1-1",
+  pattern_2 = "wall_border.3-1",
+  pattern_3 = "wall_border.2-1",
+  pattern_4 = "wall_border.corner.2-1",
+  pattern_5 = "wall_border.corner.1-1",
+  pattern_6 = "wall_border.corner.3-1",
+  pattern_7 = "wall_border.corner.4-1",
+  pattern_8 = "wall_border.corner_reverse.2-1",
+  pattern_9 = "wall_border.corner_reverse.1-1",
+  pattern_10 = "wall_border.corner_reverse.3-1",
+  pattern_11 = "wall_border.corner_reverse.4-1",
+}
+
+border_set{
+  id = "wall_border-2",
+  inner = true,
+  pattern_0 = "wall_border.4-2",
+  pattern_1 = "wall_border.1-2",
+  pattern_2 = "wall_border.3-2",
+  pattern_3 = "wall_border.2-2",
+  pattern_4 = "wall_border.corner.2-2",
+  pattern_5 = "wall_border.corner.1-2",
+  pattern_6 = "wall_border.corner.3-2",
+  pattern_7 = "wall_border.corner.4-2",
+  pattern_8 = "wall_border.corner_reverse.2-2",
+  pattern_9 = "wall_border.corner_reverse.1-2",
+  pattern_10 = "wall_border.corner_reverse.3-2",
+  pattern_11 = "wall_border.corner_reverse.4-2",
+}
+
+border_set{
+  id = "wall_border-3",
+  inner = true,
+  pattern_0 = "wall_border.4-3",
+  pattern_1 = "wall_border.1-3",
+  pattern_2 = "wall_border.3-3",
+  pattern_3 = "wall_border.2-3",
+  pattern_4 = "wall_border.corner.2-3",
+  pattern_5 = "wall_border.corner.1-3",
+  pattern_6 = "wall_border.corner.3-3",
+  pattern_7 = "wall_border.corner.4-3",
+  pattern_8 = "wall_border.corner_reverse.2-3",
+  pattern_9 = "wall_border.corner_reverse.1-3",
+  pattern_10 = "wall_border.corner_reverse.3-3",
+  pattern_11 = "wall_border.corner_reverse.4-3",
+}
+
+border_set{
+  id = "wall_border-4",
+  inner = true,
+  pattern_0 = "wall_border.4-4",
+  pattern_1 = "wall_border.1-4",
+  pattern_2 = "wall_border.3-4",
+  pattern_3 = "wall_border.2-4",
+  pattern_4 = "wall_border.corner.2-4",
+  pattern_5 = "wall_border.corner.1-4",
+  pattern_6 = "wall_border.corner.3-4",
+  pattern_7 = "wall_border.corner.4-4",
+  pattern_8 = "wall_border.corner_reverse.2-4",
+  pattern_9 = "wall_border.corner_reverse.1-4",
+  pattern_10 = "wall_border.corner_reverse.3-4",
+  pattern_11 = "wall_border.corner_reverse.4-4",
+}
+
+border_set{
+  id = "wall_border-5",
+  inner = true,
+  pattern_0 = "wall_border.4-5",
+  pattern_1 = "wall_border.1-5",
+  pattern_2 = "wall_border.3-5",
+  pattern_3 = "wall_border.2-5",
+  pattern_4 = "wall_border.corner.2-5",
+  pattern_5 = "wall_border.corner.1-5",
+  pattern_6 = "wall_border.corner.3-5",
+  pattern_7 = "wall_border.corner.4-5",
+  pattern_8 = "wall_border.corner_reverse.2-5",
+  pattern_9 = "wall_border.corner_reverse.1-5",
+  pattern_10 = "wall_border.corner_reverse.3-5",
+  pattern_11 = "wall_border.corner_reverse.4-5",
+}
+
+border_set{
+  id = "wall_border-6",
+  inner = true,
+  pattern_0 = "wall_border.4-6",
+  pattern_1 = "wall_border.1-6",
+  pattern_2 = "wall_border.3-6",
+  pattern_3 = "wall_border.2-6",
+  pattern_4 = "wall_border.corner.2-6",
+  pattern_5 = "wall_border.corner.1-6",
+  pattern_6 = "wall_border.corner.3-6",
+  pattern_7 = "wall_border.corner.4-6",
+  pattern_8 = "wall_border.corner_reverse.2-6",
+  pattern_9 = "wall_border.corner_reverse.1-6",
+  pattern_10 = "wall_border.corner_reverse.3-6",
+  pattern_11 = "wall_border.corner_reverse.4-6",
+}
+
+border_set{
+  id = "wall_hole",
+  inner = true,
+  pattern_0 = "wall_hole.4-1",
+  pattern_1 = "wall_hole.1-1",
+  pattern_2 = "wall_hole.3-1",
+  pattern_3 = "wall_hole.2-1",
+  pattern_4 = "wall_hole.corner.2-1",
+  pattern_5 = "wall_hole.corner.1-1",
+  pattern_6 = "wall_hole.corner.3-1",
+  pattern_7 = "wall_hole.corner.4-1",
+  pattern_8 = "wall_hole.corner_reverse.2-1",
+  pattern_9 = "wall_hole.corner_reverse.1-1",
+  pattern_10 = "wall_hole.corner_reverse.3-1",
+  pattern_11 = "wall_hole.corner_reverse.4-1",
+}
+
+border_set{
+  id = "wall_low-1",
+  pattern_0 = "wall_low.4-1",
+  pattern_1 = "wall_low.1-1",
+  pattern_2 = "wall_low.3-1",
+  pattern_3 = "wall_low.2-1",
+  pattern_4 = "wall_low.corner.2-1",
+  pattern_5 = "wall_low.corner.1-1",
+  pattern_6 = "wall_low.corner.3-1",
+  pattern_7 = "wall_low.corner.4-1",
+  pattern_8 = "wall_low.corner_reverse.2-1b",
+  pattern_9 = "wall_low.corner_reverse.1-1b",
+  pattern_10 = "wall_low.corner_reverse.3-1b",
+  pattern_11 = "wall_low.corner_reverse.4-1b",
+}
+
+border_set{
+  id = "wall_low_border-2",
+  inner = true,
+  pattern_0 = "wall_low_border.4-2",
+  pattern_1 = "wall_low_border.1-2",
+  pattern_2 = "wall_low_border.3-2",
+  pattern_3 = "wall_low_border.2-2",
+  pattern_4 = "wall_low_border.corner.2-2",
+  pattern_5 = "wall_low_border.corner.1-2",
+  pattern_6 = "wall_low_border.corner.3-2",
+  pattern_7 = "wall_low_border.corner.4-2",
+  pattern_8 = "wall_low_border.corner_reverse.2-2",
+  pattern_9 = "wall_low_border.corner_reverse.1-2",
+  pattern_10 = "wall_low_border.corner_reverse.3-2",
+  pattern_11 = "wall_low_border.corner_reverse.4-2",
 }
 
