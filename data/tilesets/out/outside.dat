@@ -162003,3 +162003,92 @@ tile_pattern{
   repeat_mode = "none",
 }
 
+border_set{
+  id = "deep_water_to_shallow_water",
+  inner = true,
+  pattern_0 = "932",
+  pattern_1 = "931",
+  pattern_2 = "933",
+  pattern_3 = "930",
+  pattern_4 = "936",
+  pattern_5 = "937",
+  pattern_6 = "934",
+  pattern_7 = "935",
+}
+
+border_set{
+  id = "dirt_to_any",
+  pattern_0 = "1118",
+  pattern_1 = "1120",
+  pattern_2 = "1119",
+  pattern_3 = "1121",
+  pattern_4 = "1092",
+  pattern_5 = "1095",
+  pattern_6 = "1101",
+  pattern_7 = "1097",
+  pattern_8 = "1093",
+  pattern_9 = "1094",
+  pattern_10 = "1116",
+  pattern_11 = "1099",
+}
+
+border_set{
+  id = "dirt_to_any_flat_1",
+  pattern_0 = "121",
+  pattern_1 = "123",
+  pattern_2 = "125",
+  pattern_3 = "119",
+  pattern_4 = "117",
+  pattern_5 = "116",
+  pattern_6 = "115",
+  pattern_7 = "114",
+  pattern_8 = "122",
+  pattern_9 = "124",
+  pattern_10 = "118",
+  pattern_11 = "120",
+}
+
+border_set{
+  id = "dirt_to_any_flat_2",
+  pattern_0 = "1695",
+  pattern_1 = "1693",
+  pattern_2 = "1691",
+  pattern_3 = "1689",
+  pattern_4 = "117",
+  pattern_5 = "116",
+  pattern_6 = "115",
+  pattern_7 = "114",
+  pattern_8 = "1694",
+  pattern_9 = "1692",
+  pattern_10 = "1690",
+  pattern_11 = "1688",
+}
+
+border_set{
+  id = "shallow_water_to_any",
+  pattern_0 = "256",
+  pattern_1 = "258",
+  pattern_2 = "257",
+  pattern_3 = "259",
+  pattern_4 = "244",
+  pattern_5 = "250",
+  pattern_6 = "253",
+  pattern_7 = "249",
+  pattern_8 = "245",
+  pattern_9 = "251",
+  pattern_10 = "254",
+  pattern_11 = "248",
+}
+
+border_set{
+  id = "shallow_water_to_deep_water",
+  pattern_0 = "933",
+  pattern_1 = "930",
+  pattern_2 = "932",
+  pattern_3 = "931",
+  pattern_8 = "934",
+  pattern_9 = "935",
+  pattern_10 = "936",
+  pattern_11 = "937",
+}
+
