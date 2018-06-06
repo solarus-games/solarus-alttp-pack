@@ -1,9 +1,11 @@
 
 ______________________________________
 
-Solarus ALTTP pack 1.5.7 (in progress)
+Solarus ALTTP pack 1.6.0 (in progress)
 ______________________________________
 
+* Add huge outside and dungeon tilesets from ffomega (#7).
+* Add example maps reproduced from ALTTP by ffomega.
 * Add a sound with the Solarus logo.
 * Add Spanish special characters to the font.
 * Add GIMP scripts to convert between PAL and NTSC colors.
