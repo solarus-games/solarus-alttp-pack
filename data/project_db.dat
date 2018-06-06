@@ -1,30 +1,30 @@
 map{ id = "first_map", description = "First map" }
-map{ id = "full_hyrule/Eastern Palace", description = "full_hyrule/Eastern Palace" }
-map{ id = "full_hyrule/Entrance to Death Mountain", description = "full_hyrule/Entrance to Death Mountain" }
-map{ id = "full_hyrule/Entrance to Zoras River", description = "full_hyrule/Entrance to Zoras River" }
-map{ id = "full_hyrule/Fortune Teller", description = "full_hyrule/Fortune Teller" }
-map{ id = "full_hyrule/Hyrule Castle", description = "full_hyrule/Hyrule Castle" }
-map{ id = "full_hyrule/Kakariko Village", description = "full_hyrule/Kakariko Village" }
-map{ id = "full_hyrule/Links Yard", description = "full_hyrule/Links Yard" }
-map{ id = "full_hyrule/Lost Woods", description = "full_hyrule/Lost Woods" }
-map{ id = "full_hyrule/Lumberjacks House", description = "full_hyrule/Lumberjacks House" }
-map{ id = "full_hyrule/SW Entry to Lost Woods", description = "full_hyrule/SW Entry to Lost Woods" }
+map{ id = "full_hyrule/eastern_palace", description = "Eastern Palace" }
+map{ id = "full_hyrule/entrance_to_death_mountain", description = "Entrance to Death Mountain" }
+map{ id = "full_hyrule/entrance_to_zoras_river", description = "Entrance to Zoras River" }
+map{ id = "full_hyrule/fortune_teller", description = "Fortune Teller" }
+map{ id = "full_hyrule/hyrule_castle", description = "Hyrule Castle" }
+map{ id = "full_hyrule/kakariko_village", description = "Kakariko Village" }
+map{ id = "full_hyrule/links_yard", description = "Links Yard" }
+map{ id = "full_hyrule/lost_woods", description = "Lost Woods" }
+map{ id = "full_hyrule/lumberjacks_house", description = "Lumberjacks House" }
+map{ id = "full_hyrule/sw_entry_to_lost_woods", description = "SW Entry to Lost Woods" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
 
-tileset{ id = "Full Hyrule", description = "Full Hyrule" }
-tileset{ id = "cave", description = "Cave" }
-tileset{ id = "dungeon_blue", description = "Dungeon (blue)" }
-tileset{ id = "dungeon_grayblue", description = "Dungeon (gray-blue)" }
-tileset{ id = "dungeon_graybrown", description = "Dungeon (gray-brown)" }
-tileset{ id = "house", description = "House" }
-tileset{ id = "ice_brightblue", description = "Ice (bright blue)" }
-tileset{ id = "ice_brown", description = "Ice (brown)" }
-tileset{ id = "light_world", description = "Light World" }
-tileset{ id = "palace_purple", description = "Palace (purple)" }
-tileset{ id = "temple_blue", description = "Temple (blue)" }
-tileset{ id = "temple_green", description = "Temple (green)" }
-tileset{ id = "temple_yellow", description = "Temple (yellow)" }
+tileset{ id = "legacy/cave", description = "Cave" }
+tileset{ id = "legacy/dungeon_blue", description = "Dungeon (blue)" }
+tileset{ id = "legacy/dungeon_grayblue", description = "Dungeon (gray-blue)" }
+tileset{ id = "legacy/dungeon_graybrown", description = "Dungeon (gray-brown)" }
+tileset{ id = "legacy/house", description = "House" }
+tileset{ id = "legacy/ice_brightblue", description = "Ice (bright blue)" }
+tileset{ id = "legacy/ice_brown", description = "Ice (brown)" }
+tileset{ id = "legacy/light_world", description = "Light World" }
+tileset{ id = "legacy/palace_purple", description = "Palace (purple)" }
+tileset{ id = "legacy/temple_blue", description = "Temple (blue)" }
+tileset{ id = "legacy/temple_green", description = "Temple (green)" }
+tileset{ id = "legacy/temple_yellow", description = "Temple (yellow)" }
+tileset{ id = "outside", description = "Full Hyrule Outside" }
 
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/tentacle", description = "Enemy: Tentacle" }
@@ -267,4 +267,5 @@ sound{ id = "zora", description = "zora" }
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }
 font{ id = "white_digits", description = "White digits" }
+
 

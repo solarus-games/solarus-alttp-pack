@@ -5,7 +5,7 @@ properties{
   height = 960,
   min_layer = 0,
   max_layer = 4,
-  tileset = "light_world",
+  tileset = "legacy/light_world",
   music = "same",
 }
 

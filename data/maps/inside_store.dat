@@ -5,7 +5,7 @@ properties{
   height = 960,
   min_layer = 0,
   max_layer = 2,
-  tileset = "temple_blue",
+  tileset = "legacy/temple_blue",
 }
 
 tile{
